@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card{
+    border: 1px solid black;
+    width: 15rem;
+    height: 13rem;
+}
+.card-body , .card-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-footer{
+    height: 4rem;
+}
+.icon{
+    width: 5rem;
+}
