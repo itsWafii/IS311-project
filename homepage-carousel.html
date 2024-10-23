@@ -3,9 +3,73 @@
  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.css" />
     
  </head>
  <body>
-    
+    <style>
+        
+        
+        #carouselExampleIndicators {
+            width: 100%;
+            height: 30rem;
+            
+        }
+        .carousel-item {
+            
+            height: 30rem;
+            
+        }
+
+        .container-fluid {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            Height: 100%;
+            width: 100%;
+        }
+        .container-fluid h1, p {
+            text-shadow: 5px 5px 5px black;
+        }
+        
+    </style>
+     <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Ex1"></button>
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+              aria-label="Ex2"></button>
+             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+              aria-label="Ex3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="container-fluid" style="background-image: url('/images/DALL·E\ 2024-10-23\ 16.41.23\ -\ A\ header-sized\ image\ for\ a\ student\ club\ website\ called\ \'Web\ Weavers\'\ focused\ on\ web\ development.\ The\ image\ should\ feature\ a\ sleek\,\ modern\ design\ with\ .webp');">
+                    <h1>Example headline</h1>
+                    <p>Some representative placeholder content for the first slide of the carousel.</p>
+                    <a href="#" class="btn btn-lg btn-primary">Register Now</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="container-fluid"  style="background-image: url('/images/DALL·E\ 2024-10-23\ 16.41.52\ -\ Another\ header-sized\ image\ for\ a\ student\ club\ website\ called\ \'Web\ Weavers\'\ focused\ on\ web\ development.\ This\ design\ should\ feature\ a\ more\ abstract\,\ fut.webp');">
+                    <h1>Example headline</h1>
+                    <p>Some representative placeholder content for the first slide of the carousel.</p>
+                    <a id="inbox-text" class="btn btn-lg btn-primary">Register Now</a>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+        </div>
+    </div>
+
+    <script src="JS/bootstrap.js"></script>
  </body>
  </html>
